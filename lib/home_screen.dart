@@ -23,20 +23,20 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   int _selectedIndex = 0;
   final List<Widget> _screens = [
-    const MyHomePage(),      // 0: Bài 1
-    const MyPlace(),         // 1: Bài 2
-    const LayoutRowGrid(),   // 2: Bài 3
-    const MyClass(),         // 3: Bài 4
-    const HomePage(),        // 4: Bài 5
-    const CounterApp(),      // 5: Bài 6
-    const ChangeColorApp(),  // 6: Bài 7
-    const Login(),           // 7: Bài 8
-    const RegisterForm(),    // 8: Bài 9
-    const BMICalculator(),   // 9: Bài 10
-    const FeedbackForm(),    // 10: Bài 11
-    const MyProduct(),       // 11: Bài 12
-    const NewsListScreen(),  // 12: Bài 13
-    const AuthFlowWrapper(), // 13: Bài 14
+    const MyHomePage(),
+    const MyPlace(),
+    const LayoutRowGrid(),
+    const MyClass(),
+    const HomePage(),
+    const CounterApp(),
+    const ChangeColorApp(),
+    const Login(),
+    const RegisterForm(),
+    const BMICalculator(),
+    const FeedbackForm(),
+    const MyProduct(),
+    const NewsListScreen(),
+    const AuthFlowWrapper(),
   ];
 
   final List<Map<String, dynamic>> _menuItems = [
